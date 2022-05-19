@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcss-full",
+  "version": "1.0.0",
+  "description": "完整的tailwindcss样式文件",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
